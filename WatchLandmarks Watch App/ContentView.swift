@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  WatchsLandmarks Watch App
+//  WatchLandmarks Watch App
 //
 //  Created by Arie Brainware on 19/08/23.
 //

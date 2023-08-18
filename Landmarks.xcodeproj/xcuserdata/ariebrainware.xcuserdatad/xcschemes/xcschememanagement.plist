@@ -7,16 +7,23 @@
 		<key>Landmarks.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
-		<key>WatchLandmarks Extension.xcscheme_^#shared#^_</key>
+		<key>WatchLandmarks 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>WatchLandmarks Extension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>WatchLandmarks Watch App.xcscheme_^#shared#^_</key>
+		<key>WatchLandmarks Watch App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -26,9 +33,9 @@
 		<key>WatchLandmarks.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>WatchsLandmarks Watch App.xcscheme_^#shared#^_</key>
 		<dict>
@@ -38,6 +45,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>752B8FE02A901AC100484F8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>753974332A7C3C9E00491DB6</key>
 		<dict>
 			<key>primary</key>
