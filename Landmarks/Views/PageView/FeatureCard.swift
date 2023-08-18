@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FeaturedCard: View {
+struct FeatureCard: View {
     var landmark: Landmark
     
     var body: some View {
@@ -47,6 +47,6 @@ struct TextOverlay: View {
 
 struct FeaturedCard_Previews: PreviewProvider {
     static var previews: some View {
-        FeaturedCard(landmark: ModelData().features[0])
+        FeatureCard(landmark: ModelData().features[0])
     }
 }
