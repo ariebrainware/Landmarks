@@ -77,6 +77,7 @@
 		758587422AA5FB0600AC1D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7539743B2A7C3CA000491DB6 /* Assets.xcassets */; };
 		758587432AA5FB0600AC1D3A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753974472A7CBABD00491DB6 /* CircleImage.swift */; };
 		758587442AA5FB0600AC1D3A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753974492A7CBCAF00491DB6 /* MapView.swift */; };
+		758587462AA70D7B00AC1D3A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758587452AA70D7B00AC1D3A /* LandmarkList.swift */; };
 		75C4F85E2A83954700AB7DCE /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C4F85D2A83954700AB7DCE /* BadgeBackground.swift */; };
 		75CCAA362A90749F00969DB3 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 75CCAA352A90749F00969DB3 /* PushNotificationPayload.apns */; };
 		75CCAA3E2A90751C00969DB3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CCAA3D2A90751C00969DB3 /* NotificationController.swift */; };
@@ -89,7 +90,6 @@
 		75CCAA4E2A9075FB00969DB3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753974472A7CBABD00491DB6 /* CircleImage.swift */; };
 		75CCAA4F2A9075FB00969DB3 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7519CDA52A8A276E0018C356 /* hikeData.json */; };
 		75CCAA502A9075FB00969DB3 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753974372A7C3C9E00491DB6 /* LandmarksApp.swift */; };
-		75CCAA512A9075FB00969DB3 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753974562A7CDE5500491DB6 /* LandmarkList.swift */; };
 		75CCAA522A9075FB00969DB3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539744F2A7CCCF800491DB6 /* ModelData.swift */; };
 		75CCAA532A9075FB00969DB3 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539744D2A7CC7A200491DB6 /* Landmark.swift */; };
 		75CCAA542A9075FB00969DB3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753974492A7CBCAF00491DB6 /* MapView.swift */; };
@@ -175,6 +175,7 @@
 		758587242AA5F57500AC1D3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		758587262AA5F57500AC1D3A /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		758587342AA5F99500AC1D3A /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		758587452AA70D7B00AC1D3A /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		75C4F85D2A83954700AB7DCE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		75CCAA312A9070BE00969DB3 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		75CCAA352A90749F00969DB3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -415,6 +416,7 @@
 				75CCAA3D2A90751C00969DB3 /* NotificationController.swift */,
 				753D7BE12A907C33007646F2 /* ComplicationController.swift */,
 				75CCAA5B2A9077B400969DB3 /* Info.plist */,
+				758587452AA70D7B00AC1D3A /* LandmarkList.swift */,
 			);
 			path = "WatchLandmarks (Notification)";
 			sourceTree = "<group>";
@@ -676,9 +678,9 @@
 				75CCAA542A9075FB00969DB3 /* MapView.swift in Sources */,
 				75CCAA532A9075FB00969DB3 /* Landmark.swift in Sources */,
 				75CCAA4B2A9075FB00969DB3 /* Profile.swift in Sources */,
+				758587462AA70D7B00AC1D3A /* LandmarkList.swift in Sources */,
 				75CCAA502A9075FB00969DB3 /* LandmarksApp.swift in Sources */,
 				75CCAA562A9076EB00969DB3 /* LandmarkDetail.swift in Sources */,
-				75CCAA512A9075FB00969DB3 /* LandmarkList.swift in Sources */,
 				75CCAA4E2A9075FB00969DB3 /* CircleImage.swift in Sources */,
 				75CCAA3E2A90751C00969DB3 /* NotificationController.swift in Sources */,
 				75CCAA522A9075FB00969DB3 /* ModelData.swift in Sources */,
